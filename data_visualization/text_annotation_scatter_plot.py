@@ -13,6 +13,7 @@ def text_annotation_scatter_plot(
     scatter_kws: Dict[str, Any] = None,
 ):
     """Scatter plot with text annotation.
+    Example https://github.com/ozora-ogino/my-awesome-python-snippets/pull/1.
 
     Args:
         df (pd.DataFrame): Input data.
