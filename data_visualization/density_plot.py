@@ -12,7 +12,10 @@ def density_plot(
     bw: float = None,
     color: str = "olive",
 ) -> None:
-    """Density plot."""
+    """
+    Density plot.
+    Example: https://github.com/ozora-ogino/my-awesome-python-snippets/pull/2
+    """
     sns.set(style="darkgrid")
     sns.kdeplot(data=xs, shade=shade, bw=bw, color=color, legend=True)
     plt.show()
