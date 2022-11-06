@@ -1,6 +1,7 @@
 """
 Text similarity methods for text retrieval.
 Distance base algorithms + fasttext are implemented.
+For the outputs of this scripts, visit https://github.com/ozora-ogino/my-awesome-python-snippets/pull/3.
 """
 import os
 from typing import Any, Callable, List
