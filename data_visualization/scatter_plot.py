@@ -5,6 +5,9 @@ import seaborn as sns
 
 
 def scatter_plot(df: pd.DataFrame, x: str, y: str, scatter_kws: Dict):
+    """
+    Example: https://github.com/ozora-ogino/my-awesome-python-snippets/pull/4
+    """
     sns.regplot(data=df, x=x, y=y, fit_reg=False, marker="o", scatter_kws=scatter_kws)
 
 
